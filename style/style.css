@@ -1,0 +1,147 @@
+:root{
+    --primalOne:#E50914;
+    --primalTow:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primalTow);
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+}
+
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    background-size: cover;
+    width:160px;
+    padding:13px 0 10px 45px;
+}
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 15px; 
+}
+header nav a:hover{
+    color:#fff;
+}
+
+/* filmes destaque*/
+main .container{
+    width:500px;
+    margin-left: 80px;
+}
+main .container img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.nav_menu a{
+    font-size: 15px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.nav_menu i{
+    margin-right: 3px;
+}
+.filme_destaque{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Main/Vikings.jpg');
+    height:93vh;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme_destaque h3{
+    font-size: 24px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.filme_destaque .descricao{
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+.filme_destaque .dados_titulo{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #a3a3a3;
+    padding:20px 0 20px 0;
+}
+.filme_destaque .dados_titulo span{
+    border:1px solid #333;
+    padding:0px 5.5px;
+}
+.filme_destaque .dados_atores{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+.filme_destaque .dados_atores span{
+    color: #a3a3a3;
+}
+.botao{
+    margin-top: 10px;
+}
+.botao button{
+    background-color:rgba(39, 39, 39, 0.5);
+    border:none;
+    color:#fff;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:1s ease all;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.botao i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.botao button:hover{
+    background-color:rgb(207, 207, 207);
+    color:#333;
+}
+
+/* CARROSEL */
+
+.box-filme{
+    height:100%;
+    width:100%;
+    display: block;
+}
+.carrosel-filmes{
+    background-color:black;
+    padding-left: 30px;
+}
+.carrosel-filmes p{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #fff;
+    padding:10px 0;
+}
